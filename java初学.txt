@@ -1,0 +1,24 @@
+前三章总结
+一个Java程序可以认为是一系列对象的集合，而这些对象通过调用彼此的方法来协同工作。下面简要介绍下类、对象、方法和实例变量的概念。
+对象：对象的概念相当于一个人，人的状态有吃喝玩乐，肤色身高体重。。。
+类：类是一个模板，它描述一类对象的行为和状态。
+
+方法：方法就是行为，一个类可以有很多方法。逻辑运算、数据修改以及所有动作都是在方法中完成的。
+实例变量：每个对象都有独特的实例变量，对象的状态由这些实例变量的值决定。
+
+[java] view plain copy
+public class HelloWorld {  
+public static void main(String []args) {  
+System.out.println("Hello World");   
+}  
+}  
+System.out.println("Hello World"); 
+这里使用了System.out对象并调用了它的println方法。
+java通用语法是object.method(parameters)这等价于函数调用。
+编写Java程序时，应注意以下几点：
+
+大小写敏感：Java是大小写敏感的，这就意味着标识符Hello与hello是不同的。
+
+类名：对于所有的类来说，类名的首字母应该大写。如果类名由若干单词组成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass 。
+
+方法名：所有的方法名都应该以小写字母开头。如果方法名含有若干单词，则后面的每个单词首字母大写。

@@ -1,0 +1,53 @@
+1。Math类：
+三角函数
+Math.sin
+Math.cos
+Math.tan
+Math.atan
+Math.atan2
+
+指数函数
+Math.exp
+Math.log
+Math.log10
+
+π   =   Math.PI
+e   =   Math.E
+舍入运算
+Math.round
+2。字符串
+String类的substring方法可以从一个大字符串中提取出一个子串
+String greeting = "Hello";
+String s = greeting.substring(0,3)
+s = "Hel";
+java语言允许使用“+”拼接两个字符串
+String a = "123";
+String b = "456";
+string c = a+b;
+//c = 123456
+判断两个字符串是否相等可以用equals不区分大小写则用equalssIgnoreCase。
+String s = "Hello";
+"Hello".equals(s);
+字符串长度方法为str.length()
+String s = "Hello";
+int n = s.length();//is 5
+String toLowerCase大写变为小写
+String toUpperCase小写变为大写
+3。输入输出
+“标准输出流”  System.out.println
+“标准输入流”  比较麻烦一点
+//首先要构造一个Scanner对象，并与“标准输入流”System.in关联
+Scanner in = new Scanner(System.in);
+
+//此时可以使用Scanner类的各种方法实现输入操作了
+
+String name = in.nextLine();
+4。时间日期的显示
+//定义日期的格式
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");  
+
+//获取当前时间
+long start = System.currentTimeMillis();  
+5。大数值
+大数值不能用（+ - * /） 要用 add（+） subtract（-） multiply（*）divide（/）
+BigInteger a = BigInteger.valuOf（100;
