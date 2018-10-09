@@ -1,0 +1,44 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Tomcat666:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Tomcat666_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Tomcat666" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application_server_libraries" name="Tomcat 9.0.11" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/el-api.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/jasper.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/jsp-api.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/catalina.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/jasper-el.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/ecj-4.7.3a.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/jaspic-api.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-api.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-jni.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/catalina-ha.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/servlet-api.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-dbcp.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-jdbc.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-util.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/catalina-ant.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-coyote.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/websocket-api.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-i18n-es.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-i18n-fr.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-i18n-ja.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-i18n-ru.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/annotations-api.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/catalina-tribes.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-util-scan.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/tomcat-websocket.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/catalina-storeconfig.jar" />
+          <element id="file-copy" path="D:/浏览器下载/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/mysql-connector-java-8.0.12.jar" />
+          <element id="file-copy" path="D:/浏览器下载/jdk-8u171-windows-x64-demos.zip" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Tomcat666/web/Web" />
+    </root>
+  </artifact>
+</component>
